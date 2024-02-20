@@ -1,0 +1,30 @@
+<robot name="onshape">
+    <link name="table">
+        <visual>
+            <origin xyz="-3.4694469519536141888e-18 2.0816681711721685133e-17 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package:///table.stl" />
+            </geometry>
+            <material name="table_material">
+                <color
+                    rgba="0.54117647058823525885 0.68235294117647060652 0.83921568627450982003 1.0" />
+            </material>
+        </visual>
+        <collision>
+            <origin xyz="-3.4694469519536141888e-18 2.0816681711721685133e-17 0" rpy="0 -0 0" />
+            <geometry>
+                <mesh filename="package:///table.stl" />
+            </geometry>
+        </collision>
+        <inertial>
+            <origin
+                xyz="2.6290934441774893195e-17 -1.6807070155522497386e-17 0.01027797329001985116"
+                rpy="0 0 0" />
+            <mass value="0.5408016000000003265" />
+            <inertia ixx="0.0042143828695200714202" ixy="0" ixz="0" iyy="0.01340680122032007239"
+                iyz="0" izz="0.01757709649080000866" />
+        </inertial>
+    </link>
+
+
+</robot>
